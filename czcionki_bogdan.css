@@ -1,0 +1,88 @@
+p#bogdan {
+    color:#ff0000;
+    font-size:1cm;
+    text-align:center;
+    }
+#z1_bogdan
+{
+    font-family:serif;
+color:rgb(255, 215, 0);
+font-variant:small-caps;
+font-weight:200;
+font-size:x-small;
+text-indent:2cm;
+line-height:1cm;
+word-spacing:12px;
+letter-spacing:5ex;
+}
+#z2_bogdan
+{
+    color:rgb(255, 255, 0);
+    font-family:serif;
+font-weight:700;
+font-size:medium;
+text-indent:2cm;
+line-height:1cm;
+word-spacing:12px;
+letter-spacing:5ex;
+}
+#z3_bogdan
+{
+    font-family:serif;
+    font-style:italic;  
+    color:rgb(240, 230, 107);
+    text-decoration: overline ;
+font-weight:900;
+font-size:large;
+text-indent:2cm;
+line-height:1cm;
+word-spacing:12px;
+letter-spacing:5ex;
+}
+
+
+
+#z4_bogdan
+{
+	 font-family:sans-serif;
+	 text-decoration:line-through ;
+    color:rgba(0, 255, 255, 0.795);
+    font-variant:small-caps;
+    font-weight:300;
+    font-size:10px;
+    text-indent:25mm;
+    line-height:15mm;
+    word-spacing:10pt;
+    letter-spacing:0.5cm;
+
+}
+
+#z5_bogdan
+{
+	 font-family:sans-serif;
+    color:rgba(0, 191, 255, 0.795);
+    text-transform: capitalize;
+    font-weight:600;
+    font-size:0.0729in;
+    text-indent:25mm;
+    line-height:15mm;
+    word-spacing:10pt;
+    letter-spacing:0.5cm;
+
+}
+#z6_bogdan
+{
+	 font-style:oblique; 
+	 font-family:sans-serif;
+    color:rgba(25, 25, 112, 0.795);
+    font-weight:800;
+    font-size:0.7500em;
+    text-indent:25mm;
+    line-height:15mm;
+    word-spacing:10pt;
+    letter-spacing:0.5cm;
+
+}
+
+hr{
+    border-top: 1px dashed black;}

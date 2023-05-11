@@ -1,0 +1,54 @@
+p {
+	font-size:21pt;
+	color: rgb(255,215,0);
+}
+
+p:first-letter {
+	font-size:114pt;
+	color:blue;
+}	
+
+
+
+
+
+
+h1 {
+	font-size:22pt;
+	color:purple;	
+	
+}
+
+h1:first-letter {
+	font-size:112pt;
+	color:silver;
+}	
+
+
+
+p#drugi {
+	font-size:22pt;
+	color:rgb(255,215,0);
+}	
+
+p#drugi:first-letter {
+	font-size:114pt;
+	color:yellow;	
+}	
+
+
+
+p#trzeci:first-line {
+	color:red;
+	font-size:14pt;
+}
+
+p#trzeci:first-letter {
+	font-size:112pt;
+	color:red;
+} 
+
+p#trzeci {
+	font-size:22pt;
+	color:blue;
+}	

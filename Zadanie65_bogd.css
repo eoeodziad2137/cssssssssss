@@ -1,0 +1,53 @@
+body {
+
+    background-color: silver;
+
+}
+
+p {
+
+    font-size: 11pt;
+
+}
+
+
+
+p:first-child {
+
+    font-size: 9mm;
+    font-style: italic;
+
+}
+
+
+
+
+
+
+div#pierwszy_bogdan {
+    width: 704pt;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 17mm;
+    background-color: lightgreen;
+    border: solid black 3px;
+
+}
+
+div#drugi_bogdan {
+    width: 904pt;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 13mm;
+    background-color: lightblue;
+    border: solid rgb(0, 0, 116) 5px;
+
+}
+
+div#trzeci_bogdan {
+    width: 1104pt;
+    border-radius: 13mm;
+    background-color: rgb(255, 0, 255);
+    border: solid purple 7px;
+
+}

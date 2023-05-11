@@ -1,0 +1,35 @@
+div#blok1_bogdan {
+    width: 604px;
+    background-color: green;
+
+}
+
+div#blok1_bogdan:hover {
+    width: 604px;
+    background-color: silver;
+    font-size: 20mm;
+
+}
+
+div#blok2_bogdan {
+    width: 604px;
+    background-color: green;
+}
+
+div#blok2_bogdan:hover {
+    width: 604px;
+    background-color: orange;
+    font-size: 20mm;
+}
+
+div#blok3_bogdan {
+    width: 604px;
+    background-color: green;
+
+}
+div#blok3_bogdan:hover {
+    width: 604px;
+    background-color: lightgreen;
+    font-size: 20mm;
+}
+/*bogdan*/

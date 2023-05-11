@@ -1,0 +1,109 @@
+<html>
+
+<head>
+    <meta charset=utf-8">
+</head>
+
+<body>
+
+    <h1>
+        <OL TYPE=1 START=1>
+            <LI>Składnia teoretyczna -> otoczony ramką (może być tabela jedno komórkowa, konieczne wcięcia),
+            <LI>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz
+                <br>
+                ile razy może on występować w dokumencie, jako podłączenie stylu CSS?
+            <LI>Jak jest najprostsza forma wstawiania stylu zewnętrznego -> otoczony ramką (może być tabela jedno
+                komórkowa)?
+            <LI>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad
+                <br>
+                musi być zachowana przy większej ilości dołączanych styli?
+            <LI>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style
+                <br>
+                są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.
+            <LI>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?
+            <LI>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?
+            <LI>Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?
+            <LI>Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem wyliczenia?
+            <LI>Uwagi na temat pisania w CSS.
+        </OL><br>
+    </h1>
+    <br>
+    <b>1.</b><br>
+    <textarea cols="100" rows="5">
+<head>
+    (...)
+    <link rel="Stylesheet" type="text/css" href="style.css" />
+    (...)
+</head>              
+        </textarea>
+    <br>
+    <br>
+    <br>
+    <b>2.</b><br>
+    <textarea cols="100" rows="5">
+Wstawienie wystarczy wpisać w treści nagłówkowej każdego z dokumentów (pomiędzy znacznikami <head>  </head>)
+
+Można dołączyć dowolną liczbę zewnętrznych arkuszy stylów - każdy jako osobny element <link rel="Stylesheet" />.
+        </textarea>
+    <br>
+    <br>
+    <br>
+    <b>3.</b><br>
+    <textarea cols="100" rows="2">
+<link rel="Stylesheet" type="text/css" href="style.css"/>
+        </textarea>
+    <br>
+    <br>
+    <br>
+    <b>4.</b><br>
+    <textarea cols="110" rows="1">
+Można dołączyć dowolną liczbę zewnętrznych arkuszy stylów - każdy jako osobny element <link rel="Stylesheet" />. 
+        </textarea>
+    <br>
+    <br>
+    <br>
+    <b>5.</b><br>
+    W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później.<br>
+    <br>
+    <br>
+    <br>
+    <b>6.</b><br>
+    Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i edytowania wystarczy zwykły edytor
+    tekst.<br>
+    <br>
+    <br>
+    <br>
+    <b>7.</b><br>
+    Tworzenie i edytowanie plików akruszy w specjalnym edytorze CSS wygląda tak samo jak w zwykłym edytorze tekstu.<br>
+    <br>
+    <br>
+    <br>
+    <b>8.</b><br>
+    Plik będący arkuszem musi posiadać rozszerzenie .css.<br>
+    <br>
+    <br>
+    <br>
+    <b>9.</b><br>
+
+    <ol type="1" start="1">
+        <li>Wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne cechy.<br></li>
+        <li>Jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na wszystkich <br>
+            stronach, możemy to zrobić, modyfikując jedynie zewnętrzny arkusz stylów, bez <br>
+            konieczności zmiany każdej strony osobno.</li>
+    </ol>
+    <br>
+    <br>
+    <br>
+    <b>10.</b><br>
+    <ol type="1" start="1">
+        <li>Znacznik LINK może znajdować się tylko i wyłącznie w nagłówku dokumentu.(sekcja head )</li>
+        <li>można dołączyć dowolną liczbę zewnętrznych arkuszy stylów  - każdy jako osobny element. </li>
+        <textarea name="" id="" cols="30" rows="1"> <link rel="Stylesheet" /></textarea>
+        <li>W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później.</li>
+        <li>Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i edytowania wystarczy zwykły edytor tekst.</li>
+        <li>Można się posłużyć specjalnym edytorem CSS.</li>
+        <li>Należy jedynie pamiętać, że plik będący zewnętrznym arkuszem stylów musi mieć rozszerzenie *.css</li>
+    </ol>
+</body>
+
+</html>

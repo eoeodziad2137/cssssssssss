@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+    <h1>CSS</h1>
+    
+    <textarea cols="50" rows="45">
+/* Określenie oddzielnego formatowania dla każdego stanu odnośnika. */
+/*Normalne odnosniki*/
+A
+ {
+ font-size:24pt;
+ text-decoration:none;
+ }
+A:link
+ {
+ color:navy;
+ }
+A:visited
+ {
+ color:green;
+ }
+A:hover
+ {
+ color:red;
+ text-decoration:underline;
+ }
+/*Male odnosniki*/
+A.maly
+ {
+ font-size: 12pt;
+ }
+A.maly:link
+ {
+ color:silver;;
+ }
+A.maly:visited
+ {
+ color:yellow;
+ }
+A.maly:hover
+ {
+ color:black;
+ text-decoration:none;
+ }
+A:active
+ {
+ color:silver;
+ }
+ /*Stanisław Bogdan, 28.04.2023*/
+    </textarea>
+    <h1>HTML</h1>
+
+    <textarea cols="80" rows="40">
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 61</title>
+    <link rel="stylesheet" href="zadanie61_bogd.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href="http://www.zse.gda.pl">Portal WP</a></li>
+        <li><a href="http://onet.pl">Portal Onet.pl</a></li>
+        <li><a href="http://helion.pl">Wydawnictwo Helion</a></li>
+    </ul>
+
+    <br>
+
+    <ul>
+        <li><a href="http://www.zse.gda.pl" class="maly">Portal WP</a></li>
+        <li><a href="http://onet.pl" class="maly">Portal Onet.pl</a></li>
+        <li><a href="http://helion.pl" class="maly ">Wydawnictwo Helion</a></li>
+    </ul>
+
+</body>
+
+</html>
+<!--Stanisław Bogdan, 28.04.23-->
+    </textarea>
+</body>
+
+</html>
